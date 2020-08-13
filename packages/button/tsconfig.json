@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": [
+      "jest"
+    ]
+  },
+  "include": [
+    "../../types.d.ts",
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "button",
+  "version": "0.0.0",
+  "description": "button",
+  "author": "Umar Waliyullah <umar.waliyullah@proximitybbdo.fr>",
+  "homepage": "https://github.com/umarmw/magix#readme",
+  "license": "ISC",
+  "main": "lib/button.js",
+  "directories": {
+    "dist": "dist",
+    "test": "tests"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umarmw/magix.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc --project ./tsconfig.build.json",
+    "test": "jest"
+},
+  "bugs": {
+    "url": "https://github.com/umarmw/magix/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/jest": "^26.0.8",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.7.4"
+  }
+}
